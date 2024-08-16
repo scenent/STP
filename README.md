@@ -121,6 +121,7 @@ myFnPtr.call([[1, 2, 3]]);
 | xor        | represents a ^ b |
 | fn         | represents function statement |
 | var        | represents variable declaration |
+| declvar    | sub type for casting variable declaration |
 | if         | represents if statement |
 | for        | represents for statement |
 | while      | represents while statement |
