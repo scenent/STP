@@ -47,7 +47,7 @@ print(declvar(myStmt).get_variable_name()); // it down-casting `myStmt` to `decl
 print(declvar(myStmt).get_initial_expr().to_string()); // it down-casting `myStmt` to `declvar` inner type (which inherits `stmt`), then prints "5".
 
 var myType : type = (int);
-myType = myExpr.get_type(); // now myType is `type` type contains `if` type.
+myType = myExpr.get_type(); // now myType is `type` type contains `expr` type.
 var mySuperTypedVar : myType = (2 + 3); // you can use `type` variable to determine variable's type.
 
 var myAST : ast = @parse(myExpr.to_string()); // it parses string data to abstract syntax tree.
